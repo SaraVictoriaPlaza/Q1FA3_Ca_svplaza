@@ -1,0 +1,271 @@
+/*the website is a 50% complete: navbar, layout of the 4 pages, 2.5 pages complete, main css for the website*/
+/*not yet flourished: sizing, content for some pages, layout of some pages, code comments for guide*/
+
+*{
+    padding: 0px;
+    margin: 0px;
+} 
+
+.navbar{
+    height: 8vh; /*sets the viewheight of the navbar used in all pages*/
+    background-color: rgb(58, 80, 98);
+    border: 1px solid black;
+}
+
+.main{
+    height:80.5vh;
+    border: 1px solid black;
+    background-color: rgb(159, 172, 182); /*sets a background color preference*/
+    background-size:100%;
+}
+
+
+.bottombanner{
+    height:8vh;
+    border: 1px solid black;
+    background-color: rgb(58, 80, 98);
+}
+
+.topic{
+    height: 45vh;
+    width: 90vw;
+    background-color: rgb(58, 80, 98);
+    position: relative; /*helps so that we can adjust the div in our own setting*/
+    top: 18vh; /*eg. of a position*/
+    left:4vw;
+    text-align:center; /*aligns the text to center*/
+    font-size: 30px;  
+    border: 1px solid black;
+    font-style:bold;
+    color: black;
+}
+
+.text{
+    position: relative;
+    top: 10vh;
+}
+
+
+.logo2{
+    border: 1px solid black;
+    border-radius: 100%; 
+    position: relative;
+    bottom: 20vh;
+    left: 75vw;
+    background-image:url(imgs/logo.jpg);
+}
+
+.logo{
+    border: 1px solid black;
+    border-radius: 100%;
+    position: relative;
+    top: 1vh;
+    left: 2vw;
+}
+
+.buttons a{
+    background-color: rgb(110,154,191);
+    background-position: center;
+    height: 8vh;
+    width: 4vw;
+    border: 1px solid black;
+    font-size: 12px;
+    border-radius: 20px; 
+    padding: 10px;
+    margin: 1px;
+    font-family: Arial;
+    text-decoration: none;
+    position: relative;
+    bottom: 4vh;
+    left: 73vw;
+    color: white;
+}
+
+.text2{
+    position: relative;
+    top: 4vh;
+    left: 8vw;
+    color: white;
+}
+
+.home a{
+    background-color: rgb(110,154,191);
+    height: 8vh;
+    width: 4vw;
+    border: 1px solid black;
+    font-size: 13px;
+    border-radius: 20px; 
+    padding: 10px;
+    margin: 1px;
+    font-family: Arial;
+    text-decoration: none;
+    position: relative;
+    top: 1px;
+    left: 90vw;
+    color: white;
+}
+
+.main2{
+    height: 89vh;
+    background-color: rgb(91,122,148);
+}
+
+.header{
+    border: 1px solid black;
+    border-radius: 20px;
+    background-color: rgb(82, 108, 130);
+    height: 10vh;
+    width: 98vw;
+    position: relative;
+    left: 1vw;
+    top: 1vh;
+    text-align: center;
+}
+
+.text3{
+    position: relative;
+    top: 2vh;
+    font-size: 20px;
+}
+
+.text4{
+    position: relative;
+    top:5vh;
+    left:2vw;
+    font-family: sans-serif;
+}
+
+.text5{
+    width: 80vw;
+    position: relative;
+    top:8vh;
+    left:2vw;
+    font-family: garamond;
+    font-size: 20px;
+}
+
+.def{
+    border: 1px solid black;
+    border-radius: 20px;
+    background-color: rgb(217, 217, 217);
+    height: 67vh;
+    width: 98vw;
+    position: relative;
+    left: 1vw;
+    top: 2vh;
+    
+} 
+
+.bottombanner2{
+    height:8vh;
+    border: 1px solid black;
+    background-color: rgb(58, 80, 98);
+    position: relative;
+    top: 3vh;
+}
+
+.dataandstat{
+    font-size: 20px;
+    font-family: 'Times New Roman';
+    position: relative;
+    top: 5vh;
+    left: 35vw;
+}
+.page3heading{
+    font-size: 30px;
+    position: relative;
+    top: 3vh;
+    left:2vw;
+}
+
+.socmeds{
+    border-radius: 100px;
+    position: relative;
+    bottom: 3vh;
+}
+
+.refs{
+    position: relative;
+    top: 3vh;
+    left:2vw;
+}
+
+.abtustext{
+    font-family: 'Times New Roman';
+    font-size: 25px;
+    position: relative;
+    top: 4vh;
+    left: 40vw;
+}
+
+.users{
+    border: 1px solid black;
+    height: 63vh;
+    position: relative;
+    top:6vh;
+    background-color:rgb(217, 217, 217);
+}
+
+.person1{
+    display: inline-block;
+    border: 1px solid black;
+    height: 60vh;
+    width: 20vw;
+    position: relative;
+    top: 1vh;
+    left: 10vw;
+    background-color: rgb(91, 122, 148);
+}
+
+
+.person2{
+    display: inline-block;
+    border: 1px solid black;
+    height: 60vh;
+    width: 20vw;
+    position: relative;
+    top: 1vh;
+    left: 20vw;
+    background-color: rgb(91, 122, 148);
+}
+
+.person3{
+    display: inline-block;
+    border: 1px solid black;
+    height: 60vh;
+    width: 20vw;
+    position: relative;
+    top: 1vh;
+    left: 30vw;
+    background-color: rgb(91, 122, 148);
+}
+
+.pfp1{
+    display: block;
+    border: 1px solid black;
+    border-radius: 100%; 
+    position: relative;
+    bottom:56vh;
+    left: 153vh;
+    background-image:url(imgs/logo.jpg);
+}
+
+.pfp2{
+    display: block;
+    border: 1px solid black;
+    border-radius: 100%; 
+    position: relative;
+    bottom:81vh;
+    left: 44.5vw;
+    background-image:url(imgs/logo.jpg);
+}
+
+.pfp3{
+    display: block;
+    border: 1px solid black;
+    border-radius: 100%; 
+    position: relative;
+    bottom: 107vh;
+    left: 14vw;
+    background-image:url(imgs/logo.jpg);
+}
